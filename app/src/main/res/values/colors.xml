@@ -4,4 +4,13 @@
     <color name="colorPrimaryDark">#363636</color>
     <color name="colorAccent">#d47b3c</color>
     <color name="noFill">#00ffffff</color>
+
+    <!--Colors for grid view items-->
+    <color name="gridItem1">#462813</color>
+    <color name="gridItem2">#5b3419</color>
+    <color name="gridItem3">#73421f</color>
+    <color name="gridItem4">#93552a</color>
+    <color name="gridItem5">#a9612e</color>
+    <color name="gridItem6">#c97439</color>
+    <color name="gridItem7">#e4823d</color>
 </resources>

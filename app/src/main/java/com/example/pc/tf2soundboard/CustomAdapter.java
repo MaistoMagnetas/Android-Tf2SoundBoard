@@ -60,12 +60,13 @@ public class CustomAdapter extends ArrayAdapter{
 
         //Sets gridview item colors gradient map method
         relativeLayout = (RelativeLayout) v.findViewById(R.id.relativegriditem);
-        grandientMapBGonItems();
+
 
         return v;
 
     }
 
+    //Not in Use..
     private void grandientMapBGonItems(){ // sets bg for grid view items - like gradient map
         gradientMapInteger++; //acts as constructor ID - kelinta karta kviecia metoda
         int colorNum = colorList.length; // =5

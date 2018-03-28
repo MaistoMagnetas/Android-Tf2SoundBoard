@@ -7,16 +7,29 @@
     android:id="@+id/soundBoardBG"
     android:background="@color/colorPrimary"
     tools:context="com.example.pc.tf2soundboard.SoundBoard">
-    
+
+    <ImageView
+        android:id="@+id/imageViewClassTitle"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/play_button" />
+
     <GridView
         android:id="@+id/gridView"
-        android:layout_margin="10dp"
-        android:background="@drawable/roundedsubmitbutton"
         android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageViewClassTitle"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedsubmitbutton"
+        android:horizontalSpacing="5dp"
         android:numColumns="2"
         android:padding="15dp"
-        android:verticalSpacing="5dp"
-        android:horizontalSpacing="5dp"
-        android:layout_height="match_parent"/>
+        android:verticalSpacing="5dp" />
 
 </RelativeLayout>

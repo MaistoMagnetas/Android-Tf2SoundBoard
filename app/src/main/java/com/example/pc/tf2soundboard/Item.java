@@ -9,7 +9,7 @@ public class Item {
     String title;
     int sound;
 
-    public Item(String title ) {
+    public Item(String title){
         this.title = title;
     }
 
